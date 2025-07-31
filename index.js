@@ -23,15 +23,27 @@
 // console.log(res);
 
 // 0(N x N)
-const arr1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-const arr2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const arr1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const arr2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-const O2 = (arrX, arrY) => {
-  for (let i = 0; i < arrX.length; i++) {
-    for (let j = 0; j < arrY.length; j++) {
-      console.log(`${i} x ${j} = ${i * j}`);
-    }
-  }
-};
+// const O2 = (arrX, arrY) => {
+//   for (let i = 0; i < arrX.length; i++) {
+//     for (let j = 0; j < arrY.length; j++) {
+//       console.log(`${i} x ${j} = ${i * j}`);
+//     }
+//   }
+// };
 
-const res = O2(arr1, arr2);
+// const res = O2(arr1, arr2);
+
+
+
+const input = "goat";
+
+const splittedString = input.split("");
+const reversedSplittedString = splittedString.reverse();
+const joinReversedSplittedString = reversedSplittedString.join("");
+
+console.log(joinReversedSplittedString);
+
+
