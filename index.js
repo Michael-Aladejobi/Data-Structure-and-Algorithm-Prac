@@ -36,14 +36,12 @@
 
 // const res = O2(arr1, arr2);
 
+const reverseWord = (input) => {
+  const splittedString = input.split("");
+  const reversedSplittedString = splittedString.reverse();
+  const joinReversedSplittedString = reversedSplittedString.join("");
 
+  return `INPUT: ${input}, OUTPUT: ${joinReversedSplittedString}`;
+};
 
-const input = "goat";
-
-const splittedString = input.split("");
-const reversedSplittedString = splittedString.reverse();
-const joinReversedSplittedString = reversedSplittedString.join("");
-
-console.log(joinReversedSplittedString);
-
-
+console.log(reverseWord("apple"));
