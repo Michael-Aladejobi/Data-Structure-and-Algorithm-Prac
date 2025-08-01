@@ -36,12 +36,46 @@
 
 // const res = O2(arr1, arr2);
 
-const reverseWord = (input) => {
-  const splittedString = input.split("");
-  const reversedSplittedString = splittedString.reverse();
-  const joinReversedSplittedString = reversedSplittedString.join("");
+// const reverseWord = (input) => {
+//   const splittedString = input.split("");
+//   const reversedSplittedString = splittedString.reverse();
+//   const joinReversedSplittedString = reversedSplittedString.join("");
 
-  return `INPUT: ${input}, OUTPUT: ${joinReversedSplittedString}`;
+//   return `INPUT: ${input}, OUTPUT: ${joinReversedSplittedString}`;
+// };
+
+// console.log(reverseWord("apple"));
+
+// const reverseWord = (word) => {
+//   const reversed = word.split("").reverse().join("");
+//   return reversed;
+// };
+
+// console.log(reverseWord("cat"));
+
+// const getPalindrome = (input) => {
+//   const convertToString = input.toString();
+//   const splitString = convertToString.split("");
+//   const reverseSplittedString = splitString.reverse();
+//   const joinReversedSplittedString = reverseSplittedString.join("");
+
+//   if (input == joinReversedSplittedString) {
+//     return `The word ${input} is a palindrome of ${joinReversedSplittedString}`;
+//   } else {
+//     return `The word ${input} is NOT a palindrome of ${joinReversedSplittedString}`;
+//   }
+// };
+
+// console.log(getPalindrome('mom'));
+
+const capitalized = (word) => {
+  const toString = word
+    .toString()
+    .toLowerCase()
+    .split(" ")
+    .toUpperCase()
+    .join(" ");
+  return toString;
 };
 
-console.log(reverseWord("apple"));
+console.log(capitalized("michael aladeJobi"));
