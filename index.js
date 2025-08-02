@@ -68,14 +68,14 @@
 
 // console.log(getPalindrome('mom'));
 
-const capitalized = (word) => {
-  const toString = word
-    .toString()
-    .toLowerCase()
-    .split(" ")
-    .toUpperCase()
-    .join(" ");
-  return toString;
-};
+// const capitalized = (word) => {
+//   const toString = word
+//     .toString()
+//     .toLowerCase()
+//     .split(" ")
+//     .toUpperCase()
+//     .join(" ");
+//   return toString;
+// };
 
-console.log(capitalized("michael aladeJobi"));
+// console.log(capitalized("michael aladeJobi"));
