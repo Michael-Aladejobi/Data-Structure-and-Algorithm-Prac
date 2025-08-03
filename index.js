@@ -66,7 +66,7 @@
 //   }
 // };
 
-// console.log(getPalindrome('mom'));
+// console.log(getPalindrome('mom....'));
 
 // const capitalized = (word) => {
 //   const toString = word
